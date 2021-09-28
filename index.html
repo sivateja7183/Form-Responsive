@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+  <div class="form-group">
+    <form class="" action="/signedup.html" method="post">
+    <div class="container">
+      <div class="text-center">
+        <h1>Sign Up</h1>
+      </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <p class="">First Name <span>*</span></p>
+      <input class="form-control"type="text" name="FirstName" value="" placeholder="First Name" maxlength="30" required>
+    </div>
+    <div class="col-sm-6">
+      <p class="">Last Name <span>*</span></p>
+      <input class="form-control" type="text" name="LastName" value="" placeholder="Last Name" maxlength="30" required>
+    </div>
+
+
+    <div class="col-sm-6">
+      <p class=" ">Mobile <span>*</span></p>
+    <input type="text" class="form-control" name="number" pattern="[0-9]" value="" placeholder="Mobile" required maxlength="10">
+    </div>
+
+    <div class="col-sm-6">
+      <p class=" ">Email <span>*</span></p>
+    <input type="email" class="form-control" name="email" value="" placeholder="Email" required>
+    </div>
+    <div class="col-sm-6">
+      <p class="">DOB<span>*</span></p>
+      <input class="form-control" type="date" name="dob"  required placeholder="" value="">
+    </div>
+
+    <div class="col-sm-6">
+      <p>Gender<span>*</span></p>
+      <input class="form-check-input" type="radio" name="gender" value="">
+       <label class="form-check-label" for="male">Male</label>
+         <input class="form-check-input" type="radio" name="gender" value="">
+      <label class= "form-check-label" for="female">Female</label>
+
+    </div>
+  </div>
+
+    <div class="container pm-btn text-center">
+      <div class="row">
+      <div class="col-md-4">
+        <button type="button" class= "btn btn-lg btn-primary" name="button">Athlete</button>
+      </div>
+      <div class="col-md-4">
+        <button type="button" class= "btn btn-lg btn-primary"name="button">Coach</button>
+      </div>
+      <div class="col-md-4">
+          <button type="button" class= "btn btn-lg btn-primary"name="button">Parent</button>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+
+  <div class="form-check container">
+    <div class="row">
+    <div class="">
+      <input class="form-check-input" type="checkbox" name="age" value="" required>
+      <b>I am Older than 13</b>
+      <p>If not, billing information is needed to confirm parental consent</p>
+    </div>
+    </div>
+  </div>
+
+  <div class=" form-check container">
+<div class="row">
+  <div class="">
+    <input class="form-check-input" type="checkbox" name="tnc" required value="">
+      <p>I agree to Cric Pass's privacy policy terms of service and cookie policy</p>
+  </div>
+</div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="center">
+        <button type="submit" class="btn btn-lg btn-success" name="button">Submit</button>
+      </div>
+    </div>
+</div>
+</div>
+  </form>
+  </div>
+  </body>
+</html>
