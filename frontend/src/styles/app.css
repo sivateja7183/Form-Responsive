@@ -1,0 +1,15 @@
+:root { font-family: Inter, system-ui, sans-serif; }
+body { margin: 0; background: #f3f5fa; color: #111827; }
+.layout { display: flex; min-height: 100vh; }
+.sidebar { width: 220px; background: #111827; color: #fff; padding: 24px; }
+.sidebar nav { display: grid; gap: 8px; margin-top: 16px; }
+.sidebar a { color: #9ca3af; text-decoration: none; }
+.sidebar a.active { color: #fff; font-weight: 600; }
+.content { flex: 1; padding: 24px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.card { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 6px 16px rgba(17,24,39,.06); }
+input, button { width: 100%; padding: 10px; margin-top: 8px; }
+button { background: #2563eb; color: #fff; border: 0; border-radius: 8px; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border-bottom: 1px solid #e5e7eb; text-align: left; padding: 8px; }
+.error { color: #b91c1c; }
